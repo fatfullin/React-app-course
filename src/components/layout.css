@@ -61,5 +61,16 @@ a {
   background-color: rgba(0, 89, 255, 0.7);
   border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 20px;
- 
+ }
+
+ @media (max-width: 640px) {
+  .HeroGroup {
+    padding: 120px 30px;
+    }
+    
+   
+  .Hero p {
+    font-size: 20px;
+    line-height: 1.5; 
+ }
 }
