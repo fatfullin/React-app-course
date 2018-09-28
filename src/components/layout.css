@@ -18,6 +18,7 @@ a {
   height: 920px;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .HeroGroup {
@@ -32,12 +33,17 @@ a {
     font-size: 60px;
     color: white;
     line-height: 1.2;
+    animation: heroAnimation 3s .1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    opacity: 0;    
 }
 
 .Hero p {
   color: rgba(255, 255, 255, .8);
   font-size: 30px;
   line-height: 1.5;
+  opacity: 0;
+  animation: heroAnimation 3s .4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+
 }
 
 .Hero a {
@@ -73,4 +79,31 @@ a {
     font-size: 20px;
     line-height: 1.5; 
  }
+}
+
+@keyframes heroAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(30px)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.Hero svg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.Hero .Logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 40px;
+  margin: 100px 0;
+  justify-items: center;
+  
 }

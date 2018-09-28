@@ -33,6 +33,13 @@
     border-radius: 10px;
     outline: none;
     cursor: pointer;
+    transition: .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.Header button:hover {
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    transform: translateY(-2px);
 }
 
 @media (max-width: 640px) {
