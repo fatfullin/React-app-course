@@ -29,12 +29,12 @@ a {
 }
 
 .Hero h1 {
-    margin: 0;
-    font-size: 60px;
-    color: white;
-    line-height: 1.2;
-    animation: heroAnimation 3s .1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
-    opacity: 0;    
+  margin: 0;
+  font-size: 60px;
+  color: white;
+  line-height: 1.2;
+  animation: heroAnimation 3s .1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  opacity: 0;
 }
 
 .Hero p {
@@ -56,7 +56,7 @@ a {
   border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 20px;
   transition: background-color .15s ease;
-  }
+}
 
 .Hero a:hover {
   font-size: 17px;
@@ -67,18 +67,18 @@ a {
   background-color: rgba(0, 89, 255, 0.7);
   border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 20px;
- }
+}
 
- @media (max-width: 640px) {
+@media (max-width: 640px) {
   .HeroGroup {
     padding: 120px 30px;
-    }
-    
-   
+  }
+
+
   .Hero p {
     font-size: 20px;
-    line-height: 1.5; 
- }
+    line-height: 1.5;
+  }
 }
 
 @keyframes heroAnimation {
@@ -106,18 +106,19 @@ a {
   margin: 100px 0;
   justify-items: center;
   
+
 }
 
- .Cards h2 {
-    margin: 50px 20px;
-   font-size: 60px;
-   text-align: center;
-   font-weight: 700;
-   background: linear-gradient(104deg, #050A27 0%, #4A548C 100%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+.Cards h2 {
+  margin: 50px 20px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(104deg, #050A27 0%, #4A548C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
- }
+}
 
 .CardGroup {
   margin: 50px 40px 100px;
@@ -146,4 +147,3 @@ a {
   }
 
 }
- 
