@@ -1,0 +1,33 @@
+{
+    "cellss": [
+        {
+            "title": "Intro to React 1",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png"
+        },
+        {
+            "title": "Intro to React 2",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png"
+        },
+        {
+            "title": "Intro to React 3",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png"
+        },
+        {
+            "title": "Intro to React 4",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png"
+        },
+        {
+            "title": "Intro to React 5",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png"
+        },
+        {
+            "title": "Intro to React 6",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png"
+        },
+        {
+            "title": "Intro to React 7",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png"
+        }
+        
+    ]
+}

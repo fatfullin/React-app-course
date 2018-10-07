@@ -5,6 +5,8 @@ import Layout from '../components/layout'
 import Card from '../components/Card';
 import Section from '../components/Section';
 import Wave from '../components/Wave';
+import Cell from '../components/Cell';
+import staticdata from '../../staticdata.json'
 
 const IndexPage = () => (
   <Layout>
@@ -50,13 +52,26 @@ const IndexPage = () => (
             />
           </div>
       </div>
-      <Section
-        image={require('../images/wallpaper2.jpg')}
-        logo={require('../images/logo-react.png')}
-        title="React for Designers"
-        text="Create app flows and components. Express their properties and data linkage visually. Get code immediately.
-        React Studio's code output is clean and complete ReactJS projects with nothing extra."
-      />
+      
+        <Section
+          image={require('../images/wallpaper2.jpg')}
+          logo={require('../images/logo-react.png')}
+          title="React for Designers"
+          text="Create app flows and components. Express their properties and data linkage visually. Get code immediately.
+          React Studio's code output is clean and complete ReactJS projects with nothing extra."
+        />
+      
+      <div className="SectionCellGroup">
+        {staticdata.cellss.map(cello => (
+        
+            <Cell 
+              title={cello.title}
+              image={cello.image}
+            />
+          
+        ))}
+      </div>
+    
     </div>
 
   </Layout>
