@@ -75,4 +75,4 @@ const Footer = ({data, children}) => (
     </FooterGroup>
 )
 
-export default Footer
+export default Footer 
