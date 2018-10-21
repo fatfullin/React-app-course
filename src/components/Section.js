@@ -45,18 +45,20 @@ const SectionTitle = styled.h3`
 
 `
 const SectionText = styled.p`
-    font-size: 18px !important;
+    font-size: 18px;
+    color: white;
+    line-height: 28px;
 `
 const WaveBottom = styled.div`
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: -20px;
 `
 
 const WaveTop = styled.div`
     position: absolute;
     width: 100%;
-    top: 0px;
+    top: -20px;
     transform: rotate(180deg);
 `
 

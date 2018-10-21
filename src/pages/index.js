@@ -24,12 +24,14 @@ const IndexPage = () => (
           <img src={require('../images/logo-react.png')} width="50"/>
           <img src={require('../images/logo-swift.png')} width="50"/>
         </div>
-        
         <Wave />
       </div>
-      <div className="Cards">
-          <h2>11 more courses</h2>
-          <div className="CardGroup">
+    </div>
+    
+    
+    <div className="Cards">
+      <h2>11 more courses</h2>
+      <div className="CardGroup">
             <Card
             title="React for designers"
             text="12 sections"
@@ -50,28 +52,25 @@ const IndexPage = () => (
             text="12 sections"
             image={require('../images/wallpaper4.jpg')}
             />
-          </div>
-      </div>
+       </div>
+    </div>
       
-        <Section
+    <Section
           image={require('../images/wallpaper2.jpg')}
           logo={require('../images/logo-react.png')}
           title="React for Designers"
           text="Create app flows and components. Express their properties and data linkage visually. Get code immediately.
           React Studio's code output is clean and complete ReactJS projects with nothing extra."
-        />
+    />
       
-      <div className="SectionCellGroup">
+    <div className="SectionCellGroup">
         {staticdata.cellss.map(cello => (
         
             <Cell 
               title={cello.title}
               image={cello.image}
             />
-          
         ))}
-      </div>
-    
     </div>
 
   </Layout>
