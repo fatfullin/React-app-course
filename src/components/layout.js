@@ -45,7 +45,7 @@ const Layout = ({ children }) => (
         <Header />
         {children}
         <Footer data={data}>
-        <p>Backgrounds made in Cinema 4D, iOS app in Swift, site in React. Email us to ask anything. © 2018</p>
+        Backgrounds made in Cinema 4D, iOS app in Swift, site in React. Email us to ask anything. © 2018
         </Footer>  
         
       </>
