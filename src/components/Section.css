@@ -42,14 +42,19 @@
 .SectionTitle {
     color: white;
     font-size: 60px;
-    line-height: 1.2;
+    line-height: 1.1;
     margin: 0;
+    align-self: center;
+
 }
 
 .SectionText {
     font-size: 18px;
     color: white;
     line-height: 28px;
+    text-align: left;
+    align-self: center;
+    padding-top: 10px;
 }
 
 .WaveBottom {

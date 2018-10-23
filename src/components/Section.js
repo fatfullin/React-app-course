@@ -2,16 +2,6 @@ import React from 'react'
 import Wave from './Wave';
 import './Section.css'
 
-
-
-
-
-
-
-
-
-
-
 const Section = props => (
     <div className="SectionGroup">
     <img className="SectionBG" src={props.image} />
