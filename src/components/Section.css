@@ -53,8 +53,9 @@
     color: white;
     line-height: 28px;
     text-align: left;
-    align-self: center;
-    padding-top: 10px;
+    padding-top: 15px;
+    margin: 0;
+
 }
 
 .WaveBottom {
@@ -70,5 +71,8 @@
 
 @media (max-width: 720px) {
     .SectionTitleGroup {grid-template-columns: 1fr;}
-    .SectionTitle {font-size: 40px;}
+    .SectionTitle {
+        font-size: 40px;
+        padding-top: 0px;
+    }
 }
